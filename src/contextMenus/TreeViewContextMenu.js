@@ -1,5 +1,5 @@
-import {math} from "@xeokit/xeokit-sdk/src/viewer/scene/math/math.js";
-import {ContextMenu} from "@xeokit/xeokit-sdk/src/extras/ContextMenu/ContextMenu.js";
+import {math} from "../../xeokit-sdk/src/viewer/scene/math/math.js";
+import {ContextMenu} from "../../xeokit-sdk/src/extras/ContextMenu/ContextMenu.js";
 
 const tempVec3 = math.vec3();
 

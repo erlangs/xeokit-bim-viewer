@@ -1,5 +1,5 @@
-import {Map} from "@xeokit/xeokit-sdk/src/viewer/scene/utils/Map.js";
-import {utils} from "@xeokit/xeokit-sdk/src/viewer/scene/utils.js";
+import {Map} from "../xeokit-sdk/src/viewer/scene/utils/Map.js";
+import {utils} from "../xeokit-sdk/src/viewer/scene/utils.js";
 
 /** @private */
 class Controller {

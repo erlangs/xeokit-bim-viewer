@@ -1,5 +1,5 @@
 import {Controller} from "../Controller.js";
-import {SectionPlanesPlugin} from "@xeokit/xeokit-sdk/src/plugins/SectionPlanesPlugin/SectionPlanesPlugin.js";
+import {SectionPlanesPlugin} from "../../xeokit-sdk/src/plugins/SectionPlanesPlugin/SectionPlanesPlugin.js";
 
 /** @private */
 class SectionTool extends Controller {

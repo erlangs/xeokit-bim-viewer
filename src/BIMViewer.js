@@ -14,13 +14,13 @@ import {ObjectsExplorer} from "./explorer/ObjectsExplorer.js";
 import {ClassesExplorer} from "./explorer/ClassesExplorer.js";
 import {StoreysExplorer} from "./explorer/StoreysExplorer.js";
 
-import {Viewer} from "@xeokit/xeokit-sdk/src/viewer/Viewer.js";
-import {AmbientLight} from "@xeokit/xeokit-sdk/src/viewer/scene/lights/AmbientLight.js";
-import {DirLight} from "@xeokit/xeokit-sdk/src/viewer/scene/lights/DirLight.js";
-import {BCFViewpointsPlugin} from "@xeokit/xeokit-sdk/src/plugins/BCFViewpointsPlugin/BCFViewpointsPlugin.js";
+import {Viewer} from "../xeokit-sdk/src/viewer/Viewer.js";
+import {AmbientLight} from "../xeokit-sdk/src/viewer/scene/lights/AmbientLight.js";
+import {DirLight} from "../xeokit-sdk/src/viewer/scene/lights/DirLight.js";
+import {BCFViewpointsPlugin} from "../xeokit-sdk/src/plugins/BCFViewpointsPlugin/BCFViewpointsPlugin.js";
 import {ThreeDMode} from "./toolbar/ThreeDMode.js";
 import {ObjectContextMenu} from "./contextMenus/ObjectContextMenu.js";
-import {math} from "@xeokit/xeokit-sdk/src/viewer/scene/math/math.js";
+import {math} from "../xeokit-sdk/src/viewer/scene/math/math.js";
 import {CanvasContextMenu} from "./contextMenus/CanvasContextMenu.js";
 
 const explorerTemplate = `<div class="xeokit-tabs">

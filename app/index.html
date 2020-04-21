@@ -41,7 +41,9 @@
 
     // Set up application
 
-    import {Server, BIMViewer} from "../dist/main.js";
+    // import {Server, BIMViewer} from "../dist/main.js";
+    import {BIMViewer} from "../src/BIMViewer.js";
+    import {Server} from "../src/server/Server.js";
 
     window.onload = function () {
 
@@ -114,6 +116,13 @@
                 if (modelId) {
                     bimViewer.loadModel(modelId);
                 }
+                bimViewer.viewer.camera.eye = [509.3436279296875,162.1545867919922,-488.64764404296875];
+                bimViewer.viewer.camera.look = [-128.1464385986328,-263.080078125,-327.5478210449219];
+                bimViewer.viewer.camera.up = [-0.5264959335327148,0.8397020697593689,0.1330504864454269];
+
+                window.setInterval(function () {
+                    console.log("camera", bimViewer.viewer.camera);
+                }, 30000);
 
                 const tab = requestParams.tab;
                 if (tab) {
